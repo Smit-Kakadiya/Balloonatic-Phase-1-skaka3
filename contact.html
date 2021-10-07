@@ -1,0 +1,68 @@
+<html>
+    <head>
+        <title>
+            Contact US
+        </title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400&family=Oswald:wght@700&display=swap" rel="stylesheet">
+    </head>
+    <body onload='document.form1.email.focus()'>
+        <div id="content">
+            <table>
+                <tr>
+                    <td>
+                        <a href="home.html"><img src="images/logo.jpg" class="logo1"/></a>
+                    </td>
+                    <td>
+                        <h1><center><blink>The<br>Balloonatic<br>Asylum</blink></center>
+                        </h1>
+                    </td>
+                    <td>
+                        <div class="navbar">
+                            <h1>
+                                <a href="products.html">Products</a>
+                                <a href="about.html">About</a>
+                                <a href="contcat.html">Contact Us</a>
+                            </h1>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <td>
+                        <div class="navtwo">
+                            <h2>
+                                <a href="products.html">&nbsp;&nbsp;&nbsp;Birthday Bouquets&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a> 
+                                <a href="products.html">Balloon Occasions&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                                <a href="products.html">Build a Balloon Bouquet&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                                <a href="products.html">Decorating with Balloons&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                                <a href="products.html">Balloons in Bulk&nbsp;&nbsp;&nbsp;</a>               
+                            </h2>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+            <img src="images/contact.png" alt="Krista" class="contact">
+            <br>
+            <p class="intro">
+                Please contact us anytime if you guys got any question, concern and feedback. Please do not hesitate to contact us via our mobile number or email. Our firm's home address is located at 149 Elm St, New Haven, CT 06511 and the phone number is +1-203-432-2300. General e-mail inquiries can be made via e-mail to customer-support@tba.com.
+            </p>
+            <br><br>
+            <h1 style="color: darkmagenta"><left style="margin: 0px 0px 0px 100px;"><u>Subscribe to our NewsLetter:</u></left></h1>
+            <form name="form1" method="POST" action="home.html">  
+                <p class="intro">
+                Email:                
+                <input type="email" name="email" required>
+                <input type="submit" class="form-submit-button" name="submit" value="Submit" onclick="emailValidation(document.form1.email)"/></input>
+                </p>
+            </form>
+            <br><br><br><br>
+        </div>
+        
+        <div class="footer">
+            <p>Copyright 1999-<span id="currentYear"></span> by Smit Kakadiya. All Rights Reserved.</p>
+        </div>
+        <script src="main.js"></script>
+    </body>
+</html>

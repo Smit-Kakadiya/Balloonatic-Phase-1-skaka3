@@ -1,0 +1,180 @@
+.logo1 {
+  margin: 0px 325px 0px 0px;
+  position: relative;
+  top: -10px;
+  right: 0px;
+  height: 100;
+  width: 100;
+ }
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  height: 100px;
+  margin: 0px 0px 0px 332px;
+  }
+  
+.navbar a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  }
+
+.navbar a:hover {
+  height: 150px;
+  color: lightgreen;
+  }
+
+.navtwo {
+  overflow: hidden;
+  border: 5px solid yellow;
+  background-color: grey;
+  color: aliceblue;
+  text-align: center;
+}
+
+.navtwo a {
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  }
+
+.navtwo a:hover {
+  height: 150px;
+  color: blue;
+}
+
+.about {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+  height: 50%;
+}
+
+.contact {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  width: 25%;
+  height: 20%;
+}
+
+.intro {
+  text-align: justify;
+  font-family: 'Merriweather', serif;
+  font-size: large;
+	line-height: 1.5;
+  margin: 0px 100px 0px 100px;
+}
+
+.rightone {
+  width: 25%;
+  float: right;
+  margin: -175px 100px 10px 10px;
+  padding: 20px;
+  border: 2px solid red;
+  border-spacing: 100px;
+  font-family: 'Merriweather', serif;
+}
+
+.float-container {
+  border: 3px solid #fff;
+  padding: 20px;
+  font-family: 'Merriweather', serif;
+}
+
+.float-child {
+  width: 50%;
+  float: left;
+  margin: 10px 0px 100px 75px;
+  padding: 20px;
+  border: 2px solid red;
+  border-spacing: 100px;
+  font-family: 'Merriweather', serif;
+}  
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: violet;
+  color: white;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  margin-top: 20px;
+}
+
+.form-submit-button {
+  background:#0066A2;
+  color:white;
+  height: 25px;
+  margin: 0px 0px 0px 10px;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: 20px 30px 20px 100px;
+  text-align: center;
+  font-family: arial;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+
+#product-div {
+  float: left;
+  margin: 0px;
+  width: 33.33%;
+  margin-bottom: 100px;
+}
+
+.top {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  height: 60%;
+  animation-name: fade;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-duration: 1s;
+  animation-direction: alternate;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
